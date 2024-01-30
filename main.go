@@ -123,6 +123,7 @@ import (
 	_ "github.com/envoyproxy/go-control-plane/envoy/extensions/network/socket_interface/v3"
 	_ "github.com/envoyproxy/go-control-plane/envoy/extensions/rate_limit_descriptors/expr/v3"
 	_ "github.com/envoyproxy/go-control-plane/envoy/extensions/retry/host/omit_host_metadata/v3"
+	_ "github.com/envoyproxy/go-control-plane/envoy/extensions/retry/host/previous_hosts/v3"
 	_ "github.com/envoyproxy/go-control-plane/envoy/extensions/retry/priority/previous_priorities/v3"
 	_ "github.com/envoyproxy/go-control-plane/envoy/extensions/stat_sinks/wasm/v3"
 	_ "github.com/envoyproxy/go-control-plane/envoy/extensions/transport_sockets/alts/v3"
